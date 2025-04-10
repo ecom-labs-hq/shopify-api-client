@@ -3,6 +3,26 @@
     "version": "1.1.0",
     "type": "module",
     "exports": {
+        "./2024-07": {
+            "require": {
+                "types": "./dist/2024-07/index.d.cts",
+                "default": "./dist/2024-07/index.cjs"
+            },
+            "import": {
+                "types": "./dist/2024-07/index.d.ts",
+                "default": "./dist/2024-07/index.js"
+            }
+        },
+        "./2024-10": {
+            "require": {
+                "types": "./dist/2024-10/index.d.cts",
+                "default": "./dist/2024-10/index.cjs"
+            },
+            "import": {
+                "types": "./dist/2024-10/index.d.ts",
+                "default": "./dist/2024-10/index.js"
+            }
+        },
         "./2025-01": {
             "require": {
                 "types": "./dist/2025-01/index.d.cts",
