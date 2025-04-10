@@ -25,4 +25,11 @@ export default [
 
     /* Disable stylistic settings */
     eslintConfigPrettier,
+
+    /* Disable the no-irregular-whitespace error */
+    {
+        rules: {
+            "no-irregular-whitespace": "warn",
+        },
+    },
 ];
