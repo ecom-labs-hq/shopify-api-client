@@ -2,6 +2,18 @@
     "name": "@ecom-labs/shopify-api-client",
     "version": "0.1.0",
     "type": "module",
+    "exports": {
+        "./2025-04": {
+            "require": {
+                "types": "./dist/2025-04/index.d.cts",
+                "default": "./dist/2025-04/index.cjs"
+            },
+            "import": {
+                "types": "./dist/2025-04/index.d.ts",
+                "default": "./dist/2025-04/index.js"
+            }
+        }
+    },
     "scripts": {
         "format": "prettier --write .",
         "format:check": "prettier --check .",
@@ -38,6 +50,9 @@
     "author": {
         "name": "Ecom Labs",
         "email": "support@ecom-labs.ai"
+    },
+    "publishConfig": {
+        "access": "public"
     },
     "license": "MIT"
 }
