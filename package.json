@@ -6,7 +6,8 @@
         "format": "prettier --write .",
         "format:check": "prettier --check .",
         "check-types": "tsc --noEmit",
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "build": "tsup"
     },
     "dependencies": {
         "type-fest": "^4.39.1"
