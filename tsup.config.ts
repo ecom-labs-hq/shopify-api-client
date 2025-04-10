@@ -1,11 +1,11 @@
 import { defineConfig } from "tsup";
 
 export default defineConfig({
-    entry: ["src/2025-04/index.ts"],
+    entry: ["src/2025-01/index.ts", "src/2025-04/index.ts"],
     format: ["cjs", "esm"],
     platform: "neutral",
 
-    outDir: "dist/2025-04/",
+    outDir: "dist",
     sourcemap: true,
     dts: true,
 

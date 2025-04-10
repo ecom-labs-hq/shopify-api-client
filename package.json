@@ -3,6 +3,16 @@
     "version": "1.0.0",
     "type": "module",
     "exports": {
+        "./2025-01": {
+            "require": {
+                "types": "./dist/2025-01/index.d.cts",
+                "default": "./dist/2025-01/index.cjs"
+            },
+            "import": {
+                "types": "./dist/2025-01/index.d.ts",
+                "default": "./dist/2025-01/index.js"
+            }
+        },
         "./2025-04": {
             "require": {
                 "types": "./dist/2025-04/index.d.cts",
