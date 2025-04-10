@@ -1,6 +1,6 @@
 {
     "name": "@ecom-labs/shopify-api-client",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "type": "module",
     "exports": {
         "./2025-04": {
